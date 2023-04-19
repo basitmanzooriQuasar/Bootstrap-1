@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inevitable Sports</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: white"
+    >
+      <div class="container-fluid navv">
+        <a class="navbar-brand" href="#"><img src="Images/logo.png" width="50px"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blogs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog-1</a></li>
+                <li><a class="dropdown-item" href="#">Blog-2</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Blog-3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Nav Bar Ends-->
+    <!-- Slider Starts -->
+    <div id="carouselExampleAutoplaying" class="carousel carousel-Light slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="Images/1.jpg" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div> -->
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Images/8.jpg" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="Images/9.jpg" class="d-block w-100" alt="...">
+            <!-- <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- Slider Ends -->
+
+    <!-- Next section starts -->
+    <div class="container-fluid">
+        <!-- Tagline -->
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-5 mb-5">Stay up-to-date with the latest scores, news, and highlights <br> from the world of sports on our website</h3>
+            </div>
+        </div>
+        <!-- Features -->
+        <div class="row justify-content-evenly pt-3 pb-3"">
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="bi bi-badge-hd-fill text-primary"></i></h1>
+                <h5>Highlights</h5>
+                <p>
+                    Watch the latest match highlights and relive the excitement
+                </p>
+            </div>
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="bi bi-tv-fill text-danger"></i></h1>
+                <h5>Live Streaming</h5>
+                <p>
+                    Never miss a game - catch all the action with live streaming
+                </p>
+            </div>
+            <div class="col-md-3 text-center mt-5">
+                <h1> <i class="bi bi-newspaper text-success"></i></h1>
+                <h5>Latest News</h5>
+                <p>
+                    Stay informed with the latest sports news from around the world
+                </p>
+            </div>
+        </div>
+        <!-- line tag -->
+        <hr>
+        <!-- line tag ends -->
+
+        <!-- Growth section starts -->
+        <div class="row justify-content-evenly pt-3 pb-5">
+            <div class="col-md-5 pt-3 mt-4">
+                <img src="Images/7.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-5 pt-3">
+                <h5 class="mt-3">Shots on target</h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 75%"></div>
+                  </div>
+                  <h5 class="mt-3">Total saves</h5>
+                  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 60%"></div>
+                  </div>
+
+                  <h5 class="mt-3">Chances created</h5>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 85%"></div>
+                  </div>
+
+                  <h5 class="mt-3">Successfull dribbles</h5>
+                  <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 90%"></div>
+                  </div>
+
+                  <h5 class="mt-3">Ball retrievals</h5>
+                  <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-primary" style="width: 95%"></div>
+                  </div>
+            </div>
+        </div>
+        <!-- Contact Us and Address section -->
+        <div class="row justify-content-evenly pt-3 pd-3" style="background-color: #f1f1f1;">
+            <!-- Contact Us section -->
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Contact Us</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                  </form>
+            </div>
+
+            <!-- Address section -->
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Address</h3>
+                <p>  <i class="bi bi-house-door-fill"></i> Srinagar, Jammu & Kashmir <br>
+                    &nbsp &nbsp 190005, High Street <br>
+                    <i class="bi bi-telephone-fill"></i> +91 1234567890
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2024.382129066119!2d74.7925156998442!3d34.00102268488705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e18e0c33d911b1%3A0xc4d1e077d74feee6!2sRangreth%2C%20Srinagar!5e0!3m2!1sen!2sin!4v1681903820620!5m2!1sen!2sin"  height="250" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <!-- FAQ Section -->
+        <div class="row justify-content-evenly pt-5 pb-5">
+            <div class="col-md-10">
+                <h3 class="text-center pb-4">FAQ</h3>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Frequently Asked Questions
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                          <strong>Why should be stay updated with sports news?</strong> Staying updated with sports news keeps you informed about the latest developments, scores, and achievements in your favorite sports. It also allows you to engage in conversations with other fans and stay connected to the wider sports community.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Answers to Your Questions
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>How to read latest blogs on our website?</strong> You can read about the latest blogs on our website by simply navigating to the "Blog" section. Here, you will find a variety of articles covering different topics in the world of sports, written by our team of experts. You can also subscribe to our newsletter or follow us on social media to stay up-to-date on all of our latest content.
+                          </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Need to Know
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Purpose?</strong> The purpose of this website is to provide a platform for sports enthusiasts to stay informed and engaged with the latest news, scores, and highlights from the world of sports. Whether it's following your favorite teams or players, staying up-to-date with the latest developments, or reliving the excitement of past games, your website aims to offer a comprehensive and user-friendly experience for all sports fans. Through a combination of articles, videos, and live streaming options, your website seeks to foster a sense of community among sports enthusiasts and provide a one-stop-shop for all their sports-related needs
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <!-- footer section -->
+        <div class="row justify-content-evenly pt-5 pb-5 bg-dark text-white">
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Inevitable Sports</h5>
+                <p>
+                    Stay updated with our comprehensive coverage of sports news, scores, highlights, and live streaming options, all in one place.
+                </p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Important links</h5>
+                <p>
+                    <a href="#" class="link-light text-decoration-none">Home</a><br>
+                    <a href="#" class="link-light text-decoration-none">About us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Services</a><br>
+                    <a href="#" class="link-light text-decoration-none">Blogs</a><br>
+                    <a href="#" class="link-light text-decoration-none">Contact us</a><br>
+                </p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Contact us</h5>
+                <p>
+                    <i class="bi bi-house-door-fill"></i> Srinagar, Jammu & Kashmir <br>
+                    &nbsp &nbsp 190005, High Street <br>
+                    <i class="bi bi-telephone-fill"></i> +91 1234567890
+                </p>
+            </div>
+        </div>
+        <!-- copywrite -->
+        <div class="row bg-secondary text-center text-white pt-2 pb-2">
+            <div class="col-md-12">
+                <p>
+                    Copywrite 2023-2023 by <i class="bi bi-c-circle-fill"></i> Basit Manzoor. All rights reserved
+                </p>
+            </div>
+        </div>
+        <!-- Container ends -->
+    </div>
+    <!-- Next section ends -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
