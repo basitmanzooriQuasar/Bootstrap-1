@@ -17,10 +17,10 @@
     <!--Nav Bar-->
     <nav
       class="navbar navbar-expand-lg navbar-light"
-      style="background-color: white"
+      style="background-color: white" id="home"
     >
       <div class="container-fluid navv">
-        <a class="navbar-brand" href="#"><img src="Images/logo.png" width="50px"></a>
+        <a class="navbar-brand" href="#home"><img src="Images/logo.png" width="50px"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,13 +35,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#second">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#fourth">Stats</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -61,7 +61,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#third">Contact Us</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -107,7 +107,7 @@
     <!-- Next section starts -->
     <div class="container-fluid">
         <!-- Tagline -->
-        <div class="row">
+        <div class="row" id="second">
             <div class="col-12">
                 <h3 class="display-6 text-center mt-5 mb-5">Stay up-to-date with the latest scores, news, and highlights <br> from the world of sports on our website</h3>
             </div>
@@ -141,7 +141,8 @@
         <!-- line tag ends -->
 
         <!-- Growth section starts -->
-        <div class="row justify-content-evenly pt-3 pb-5">
+        <div class="row justify-content-evenly pt-3 pb-5" id="fourth">
+          <h3 class="text-center pt-3 pb-3">Stats</h3>
             <div class="col-md-5 pt-3 mt-4">
                 <img src="Images/7.jpg" class="img-fluid">
             </div>
@@ -172,9 +173,9 @@
             </div>
         </div>
         <!-- Contact Us and Address section -->
-        <div class="row justify-content-evenly pt-3 pd-3" style="background-color: #f1f1f1;">
+        <div class="row justify-content-evenly pt-5 pb-5" style="background-color: #f1f1f1;">
             <!-- Contact Us section -->
-            <div class="col-md-5 mt-5">
+            <div class="col-md-5 mt-5" id="third">
                 <h3 class="mb-4">Contact Us</h3>
                 <form>
                     <div class="mb-3">
